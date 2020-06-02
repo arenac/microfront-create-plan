@@ -6,8 +6,8 @@ const App = () => {
   }
 
   return (
-    <div className="create-plan-container">
-     <div className="create-plan-content">
+    <div className="createPlanContainer">
+     <div className="createPlanContent">
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Plan Name"/>
           <input type="text" placeholder="Plan Decription"/>
